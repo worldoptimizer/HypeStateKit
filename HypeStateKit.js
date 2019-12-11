@@ -4,7 +4,7 @@ copyright (c) 2018 Max Ziebell, (https://maxziebell.de). MIT-license
 /*
 * Version-History
 * 1.0   Initial release with example
-* 1.1	Added setter and getter for customData
+* 1.1	Fixed some minor details
 *
 */
 
@@ -13,7 +13,6 @@ if("HypeStateKit" in window === false) window['HypeStateKit'] = (function () {
 	var kPageDelimiter = '@';
 
 	/* functions */
-
 	var clear = function(){
 		localStorage.clear();
 	}
@@ -60,7 +59,7 @@ if("HypeStateKit" in window === false) window['HypeStateKit'] = (function () {
 		}
 	}
 
-	// TODO clear widget state
+	// tbd. clear widget state (found in hypeAPI)
 
 	/* Reveal Public interface to hypeDocument */
 	var extendHype = function(hypeDocument, element, event) {
@@ -99,6 +98,7 @@ if("HypeStateKit" in window === false) window['HypeStateKit'] = (function () {
    
 	/* Reveal Public interface to window['HypeStateKit'] */
 	return {
+		version: '1.1',
 		loadState : loadState,
 		saveState : saveState,
 		loadPageState : loadState,
