@@ -1,5 +1,6 @@
 # HypeStateKit
 ![HypeDocumentLoader|690x487](https://playground.maxziebell.de/Hype/StateKit/HypeStateKit.png) 
+<sup>The cover artwork is not hosted in this repository and &copy;opyrighted by Max Ziebell</sup>
 
 This extension is a Hype specific interface to LocalStorage and allows for local persistent user data (browser specific). It also extends on the capability of the regular LocalStorage to store complex and nested data. This is a quick first release and more examples will follow on demand so feel free to reach out.
 
