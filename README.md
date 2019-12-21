@@ -1,5 +1,5 @@
 # HypeStateKit
-![HypeDocumentLoader|690x487](https://playground.maxziebell.de/Hype/StateKit/HypeStateKit.png) 
+![HypeDocumentLoader|690x487](https://playground.maxziebell.de/Hype/StateKit/HypeStateKit.jpg) 
 <sup>The cover artwork is not hosted in this repository and &copy;opyrighted by Max Ziebell</sup>
 
 This extension is a Hype specific interface to LocalStorage and allows for local persistent user data (browser specific). It also extends on the capability of the regular LocalStorage to store complex and nested data. This is a quick first release and more examples will follow on demand so feel free to reach out.
@@ -41,12 +41,13 @@ https://playground.maxziebell.de/Hype/StateKit/
 
 Content Delivery Network (CDN)
 --
-Latest minified version can be linked into your project using the following in the head section of your project:
+Latest version can be linked into your project using the following in the head section of your project:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/worldoptimizer/HypeStateKit/HypeStateKit.min.js"></script>
 ```
 
-Optionally you can also link a SRI version or specific releases. Read more about that on the JsDelivr (CDN) page for this extension at https://www.jsdelivr.com/package/gh/worldoptimizer/HypeStateKit
+Optionally you can also link a SRI version or specific releases. 
+Read more about that on the JsDelivr (CDN) page for this extension at https://www.jsdelivr.com/package/gh/worldoptimizer/HypeStateKit
 
-Learn how to use the latest extension version and how to combine extentions into one file at
+Learn how to use the latest extension version and how to combine extensions into one file at
 https://github.com/worldoptimizer/HypeCookBook/wiki/Including-external-files-and-Hype-extensions
